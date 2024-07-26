@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"forceConsistentCasingInFileNames": true,
+		"target": "es2016",
+		"module": "es6",
+		"strict": true,
+		"strictPropertyInitialization": false,
+		"noEmit": false,
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"sourceMap": true,
+		"baseUrl": "./src",
+		"paths": {
+		  "~/*": ["./*"]
+		},
+        "outDir": "./public",
+		"typeRoots": [
+			"node_modules/@types",
+			"node_modules/types",
+			"node_module/phaser/types"
+		]
+	},
+	"include": [
+		"src/**/*",
+		"types/**/*"
+	]
+}

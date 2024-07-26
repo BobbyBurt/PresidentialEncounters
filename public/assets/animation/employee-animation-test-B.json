@@ -1,0 +1,398 @@
+{
+  "textures": [
+    {
+      "image": "employee-animation-test-B.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1017,
+        "h": 1508
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "distracted-fidget/0000",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 36,
+            "y": 26,
+            "w": 409,
+            "h": 274
+          },
+          "frame": {
+            "x": 1,
+            "y": 1,
+            "w": 409,
+            "h": 274
+          }
+        },
+        {
+          "filename": "distracted-fidget/0001",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 24,
+            "y": 58,
+            "w": 418,
+            "h": 242
+          },
+          "frame": {
+            "x": 412,
+            "y": 1,
+            "w": 418,
+            "h": 242
+          }
+        },
+        {
+          "filename": "firing/0000",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 28,
+            "y": 0,
+            "w": 329,
+            "h": 300
+          },
+          "frame": {
+            "x": 412,
+            "y": 245,
+            "w": 329,
+            "h": 300
+          }
+        },
+        {
+          "filename": "repremanded/0001",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 109,
+            "y": 64,
+            "w": 273,
+            "h": 236
+          },
+          "frame": {
+            "x": 743,
+            "y": 245,
+            "w": 273,
+            "h": 236
+          }
+        },
+        {
+          "filename": "repremanded/0002",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 109,
+            "y": 64,
+            "w": 273,
+            "h": 236
+          },
+          "frame": {
+            "x": 743,
+            "y": 483,
+            "w": 273,
+            "h": 236
+          }
+        },
+        {
+          "filename": "repremanded/0000",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 17,
+            "y": 35,
+            "w": 365,
+            "h": 265
+          },
+          "frame": {
+            "x": 1,
+            "y": 277,
+            "w": 365,
+            "h": 265
+          }
+        },
+        {
+          "filename": "working-fidget/0000",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 74,
+            "y": 38,
+            "w": 343,
+            "h": 250
+          },
+          "frame": {
+            "x": 1,
+            "y": 544,
+            "w": 343,
+            "h": 250
+          }
+        },
+        {
+          "filename": "working-loop/0000",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 70,
+            "y": 45,
+            "w": 332,
+            "h": 251
+          },
+          "frame": {
+            "x": 346,
+            "y": 547,
+            "w": 332,
+            "h": 251
+          }
+        },
+        {
+          "filename": "working-loop/0001",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 67,
+            "y": 54,
+            "w": 341,
+            "h": 240
+          },
+          "frame": {
+            "x": 1,
+            "y": 796,
+            "w": 341,
+            "h": 240
+          }
+        },
+        {
+          "filename": "distracted/0000",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 24,
+            "w": 296,
+            "h": 276
+          },
+          "frame": {
+            "x": 680,
+            "y": 721,
+            "w": 296,
+            "h": 276
+          }
+        },
+        {
+          "filename": "distracting/0001",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 72,
+            "y": 39,
+            "w": 317,
+            "h": 251
+          },
+          "frame": {
+            "x": 344,
+            "y": 800,
+            "w": 317,
+            "h": 251
+          }
+        },
+        {
+          "filename": "working-fidget/0001",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 76,
+            "y": 39,
+            "w": 338,
+            "h": 241
+          },
+          "frame": {
+            "x": 1,
+            "y": 1038,
+            "w": 338,
+            "h": 241
+          }
+        },
+        {
+          "filename": "distracting/0000",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 73,
+            "y": 41,
+            "w": 333,
+            "h": 238
+          },
+          "frame": {
+            "x": 663,
+            "y": 999,
+            "w": 333,
+            "h": 238
+          }
+        },
+        {
+          "filename": "distracted/0001",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 70,
+            "y": 40,
+            "w": 319,
+            "h": 248
+          },
+          "frame": {
+            "x": 341,
+            "y": 1053,
+            "w": 319,
+            "h": 248
+          }
+        },
+        {
+          "filename": "repremanded/0003",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 62,
+            "y": 99,
+            "w": 320,
+            "h": 201
+          },
+          "frame": {
+            "x": 1,
+            "y": 1281,
+            "w": 320,
+            "h": 201
+          }
+        },
+        {
+          "filename": "firing/0001",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 95,
+            "y": 32,
+            "w": 209,
+            "h": 268
+          },
+          "frame": {
+            "x": 662,
+            "y": 1239,
+            "w": 209,
+            "h": 268
+          }
+        },
+        {
+          "filename": "fired/0000",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 98,
+            "y": 142,
+            "w": 225,
+            "h": 158
+          },
+          "frame": {
+            "x": 323,
+            "y": 1303,
+            "w": 225,
+            "h": 158
+          }
+        },
+        {
+          "filename": "firing/0002",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 470,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 98,
+            "y": 142,
+            "w": 225,
+            "h": 158
+          },
+          "frame": {
+            "x": 323,
+            "y": 1303,
+            "w": 225,
+            "h": 158
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "3.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:d162808d534b714f64a3b1443b571f6d:f80381a034d2faaf8a4053eb6e2b8ba8:73fae79c4f62d81a9ed88283acd343b3$"
+  }
+}

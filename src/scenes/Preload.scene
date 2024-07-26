@@ -1,0 +1,45 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "WorkOS-source/public/assets/prototype/prototype-asset-pack.json",
+            "WorkOS-source/public/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "preload",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 480,
+        "borderHeight": 270
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "2ce42443-5227-4c9b-b498-e81f9a21cde3",
+            "label": "progress",
+            "components": [
+                "PreloadText"
+            ],
+            "x": 240,
+            "y": 104,
+            "originX": 0.5,
+            "originY": 0.5,
+            "tintTopLeft": "#949494",
+            "tintTopRight": "#949494",
+            "tintBottomLeft": "#949494",
+            "tintBottomRight": "#949494",
+            "text": "0%",
+            "fontSize": "-64px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

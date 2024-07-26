@@ -1,0 +1,62 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": [
+                    "assets/prototype/heartrate-monitor-beep.mp3"
+                ],
+                "type": "audio",
+                "key": "boredom-beep"
+            },
+            {
+                "url": [
+                    "assets/prototype/heartrate-monitor-flatline.mp3"
+                ],
+                "type": "audio",
+                "key": "boredom-death"
+            },
+            {
+                "url": [
+                    "assets/prototype/boss-appear.mp3"
+                ],
+                "type": "audio",
+                "key": "boss-appear"
+            },
+            {
+                "url": [
+                    "assets/prototype/boss-appear-long.mp3"
+                ],
+                "type": "audio",
+                "key": "boss-appear-long"
+            },
+            {
+                "url": [
+                    "assets/prototype/boss-disappear.mp3"
+                ],
+                "type": "audio",
+                "key": "boss-disappear"
+            },
+            {
+                "url": [
+                    "assets/prototype/FNAF-6am.mp3"
+                ],
+                "type": "audio",
+                "key": "day-end"
+            },
+            {
+                "url": [
+                    "assets/prototype/00027 (0x01E0).wav"
+                ],
+                "type": "audio",
+                "key": "dopamine"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,405 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/websites/2024-07-07 20_35_58-ipad evolution 2010 ipad - Google Search — Mozilla Firefox.png",
+                "type": "image",
+                "key": "2024-07-07 20_35_58-ipad evolution 2010 ipad - Google Search — Mozilla Firefox"
+            },
+            {
+                "url": "assets/images/ACDC-poster.png",
+                "type": "image",
+                "key": "ACDC-poster"
+            },
+            {
+                "url": "assets/images/camera/bossman-absent.png",
+                "type": "image",
+                "key": "bossman-absent"
+            },
+            {
+                "url": "assets/images/camera/bossman-leaving.png",
+                "type": "image",
+                "key": "bossman-leaving"
+            },
+            {
+                "url": "assets/images/camera/bossman-returning.png",
+                "type": "image",
+                "key": "bossman-returning"
+            },
+            {
+                "url": "assets/images/camera/bossman-watching.png",
+                "type": "image",
+                "key": "bossman-watching"
+            },
+            {
+                "url": "assets/images/desktop-icons/camera.png",
+                "type": "image",
+                "key": "camera-icon"
+            },
+            {
+                "url": "assets/images/data-not-found.png",
+                "type": "image",
+                "key": "data-not-found"
+            },
+            {
+                "url": "assets/images/Desktop_BG0001(1).png",
+                "type": "image",
+                "key": "desktop-bg"
+            },
+            {
+                "url": "assets/images/desktop-icons/drive-icon.png",
+                "type": "image",
+                "key": "drive-icon"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/animation/employee-animation-test.json",
+                "path": "assets/animation",
+                "key": "employee-animation-test"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/animation/employee-animation-test-B.json",
+                "path": "assets/animation",
+                "key": "employee-animation-test-B"
+            },
+            {
+                "url": "assets/images/camera/bertina-distracted.png",
+                "type": "image",
+                "key": "employee-B-distracted"
+            },
+            {
+                "url": "assets/images/camera/bertina-trouble.png",
+                "type": "image",
+                "key": "employee-B-trouble"
+            },
+            {
+                "url": "assets/images/camera/bertina-working.png",
+                "type": "image",
+                "key": "employee-B-working"
+            },
+            {
+                "url": "assets/images/camera/fafferd-distracted.png",
+                "type": "image",
+                "key": "employee-F-distracted"
+            },
+            {
+                "url": "assets/images/camera/fafferd-trouble.png",
+                "type": "image",
+                "key": "employee-F-trouble"
+            },
+            {
+                "url": "assets/images/camera/fafferd-working.png",
+                "type": "image",
+                "key": "employee-F-working"
+            },
+            {
+                "url": "assets/images/camera/guy-distracted.png",
+                "type": "image",
+                "key": "employee-G-distracted"
+            },
+            {
+                "url": "assets/images/camera/guy-trouble.png",
+                "type": "image",
+                "key": "employee-G-trouble"
+            },
+            {
+                "url": "assets/images/camera/guy-working.png",
+                "type": "image",
+                "key": "employee-G-working"
+            },
+            {
+                "url": "assets/images/camera/juff-distracted.png",
+                "type": "image",
+                "key": "employee-J-distracted"
+            },
+            {
+                "url": "assets/images/camera/juff-trouble.png",
+                "type": "image",
+                "key": "employee-J-trouble"
+            },
+            {
+                "url": "assets/images/camera/juff-working.png",
+                "type": "image",
+                "key": "employee-J-working"
+            },
+            {
+                "url": "assets/images/camera/kalfin-distracted.png",
+                "type": "image",
+                "key": "employee-K-distracted"
+            },
+            {
+                "url": "assets/images/camera/kalfin-trouble.png",
+                "type": "image",
+                "key": "employee-K-trouble"
+            },
+            {
+                "url": "assets/images/camera/kalfin-working.png",
+                "type": "image",
+                "key": "employee-K-working"
+            },
+            {
+                "url": "assets/images/camera/lillylou-distracted.png",
+                "type": "image",
+                "key": "employee-L-distracted"
+            },
+            {
+                "url": "assets/images/camera/lillylou-trouble.png",
+                "type": "image",
+                "key": "employee-L-trouble"
+            },
+            {
+                "url": "assets/images/camera/lillylou-working.png",
+                "type": "image",
+                "key": "employee-L-working"
+            },
+            {
+                "url": "assets/images/camera/o'mallory-distracted.png",
+                "type": "image",
+                "key": "employee-O-distracted"
+            },
+            {
+                "url": "assets/images/camera/o'mallory-trouble.png",
+                "type": "image",
+                "key": "employee-O-trouble"
+            },
+            {
+                "url": "assets/images/camera/o'mallory-working.png",
+                "type": "image",
+                "key": "employee-O-working"
+            },
+            {
+                "url": "assets/images/camera/xanderson-distracted.png",
+                "type": "image",
+                "key": "employee-X-distracted"
+            },
+            {
+                "url": "assets/images/camera/xanderson-trouble.png",
+                "type": "image",
+                "key": "employee-X-trouble"
+            },
+            {
+                "url": "assets/images/camera/xanderson-working.png",
+                "type": "image",
+                "key": "employee-X-working"
+            },
+            {
+                "url": "assets/images/desktop-icons/film-icon.png",
+                "type": "image",
+                "key": "film-icon"
+            },
+            {
+                "url": "assets/images/desktop-icons/find-icon.png",
+                "type": "image",
+                "key": "find-icon"
+            },
+            {
+                "url": "assets/images/desktop-icons/folder-icon.png",
+                "type": "image",
+                "key": "folder-icon"
+            },
+            {
+                "url": "assets/images/desktop-icons/gamepad-icon.png",
+                "type": "image",
+                "key": "gamepad-icon"
+            },
+            {
+                "url": "assets/images/websites/gettyimages-96210883-612x612.jpg",
+                "type": "image",
+                "key": "gettyimages-96210883-612x612"
+            },
+            {
+                "url": [
+                    "assets/sfx/Data_Point_04.wav"
+                ],
+                "type": "audio",
+                "key": "hacking-sfx-1"
+            },
+            {
+                "url": [
+                    "assets/sfx/Data_Point_02.wav"
+                ],
+                "type": "audio",
+                "key": "hacking-sfx-2"
+            },
+            {
+                "url": [
+                    "assets/sfx/Confirm_01.wav"
+                ],
+                "type": "audio",
+                "key": "hacking-sfx-3"
+            },
+            {
+                "url": [
+                    "assets/sfx/Data_Point_05.wav"
+                ],
+                "type": "audio",
+                "key": "hacking-sfx-4"
+            },
+            {
+                "url": "assets/images/desktop-icons/icon-temp.png",
+                "type": "image",
+                "key": "icon-temp"
+            },
+            {
+                "url": [
+                    "assets/sfx/meeting-busted-TEMP.mp3"
+                ],
+                "type": "audio",
+                "key": "meeting-busted"
+            },
+            {
+                "url": "assets/images/Moniter0001(1).png",
+                "type": "image",
+                "key": "moniter"
+            },
+            {
+                "url": "assets/images/websites/More_dodgy_from_the_web.png",
+                "type": "image",
+                "key": "More_dodgy_from_the_web"
+            },
+            {
+                "textureURL": "assets/fonts/nokia.png",
+                "fontDataURL": "assets/fonts/nokia.xml",
+                "type": "bitmapFont",
+                "key": "nokia"
+            },
+            {
+                "url": "assets/images/websites/OE_Mem_Cake__Slow_Your_Roll__Mole.png",
+                "type": "image",
+                "key": "OE_Mem_Cake__Slow_Your_Roll__Mole"
+            },
+            {
+                "url": [
+                    "assets/sfx/office ambience RRR2-TEMP.mp3"
+                ],
+                "type": "audio",
+                "key": "office-ambience"
+            },
+            {
+                "url": "assets/images/security-camera/office-camera.png",
+                "type": "image",
+                "key": "office-camera"
+            },
+            {
+                "url": "assets/images/desktop-icons/page_white_go.png",
+                "type": "image",
+                "key": "page-go-icon"
+            },
+            {
+                "url": "assets/images/desktop-icons/page-go-icon.png",
+                "type": "image",
+                "key": "page-go-icon_1"
+            },
+            {
+                "url": "assets/images/desktop-icons/picture-icon.png",
+                "type": "image",
+                "key": "picture-icon"
+            },
+            {
+                "url": "assets/images/screen-peek/screen-peek.png",
+                "type": "image",
+                "key": "screen-peek"
+            },
+            {
+                "url": "assets/images/screen-peek/screen-peek-hint.png",
+                "type": "image",
+                "key": "screen-peek-hint"
+            },
+            {
+                "url": "assets/images/security-camera/security-camera-B.png",
+                "type": "image",
+                "key": "security-camera-B"
+            },
+            {
+                "url": "assets/images/security-camera/security-camera-F.png",
+                "type": "image",
+                "key": "security-camera-F"
+            },
+            {
+                "url": "assets/images/security-camera/security-camera-J.png",
+                "type": "image",
+                "key": "security-camera-J"
+            },
+            {
+                "url": "assets/images/security-camera/security-camera-K.png",
+                "type": "image",
+                "key": "security-camera-K"
+            },
+            {
+                "url": "assets/images/desktop-icons/skull.png",
+                "type": "image",
+                "key": "skull-icon"
+            },
+            {
+                "url": [
+                    "assets/music/StanleyParable-ExploringStanley.wav"
+                ],
+                "type": "audio",
+                "key": "StanleyParable-ExploringStanley"
+            },
+            {
+                "url": "assets/images/Start0001(1).png",
+                "type": "image",
+                "key": "start-button"
+            },
+            {
+                "url": "assets/Tank.png",
+                "type": "image",
+                "key": "Tank"
+            },
+            {
+                "url": "assets/images/Taskbar0001(1).png",
+                "type": "image",
+                "key": "taskbar"
+            },
+            {
+                "url": "assets/images/Taskbar_Window_Button0001(1).png",
+                "type": "image",
+                "key": "taskbar-window-button"
+            },
+            {
+                "url": "assets/images/desktop-icons/terminal-icon.png",
+                "type": "image",
+                "key": "terminal-icon"
+            },
+            {
+                "url": "assets/ToidSketch.png",
+                "type": "image",
+                "key": "ToidSketch"
+            },
+            {
+                "url": "assets/white-px.png",
+                "type": "image",
+                "key": "white-px"
+            },
+            {
+                "url": "assets/images/Window_Close_Button0001(1).png",
+                "type": "image",
+                "key": "window-close-button"
+            },
+            {
+                "url": "assets/images/desktop-icons/window-icon.png",
+                "type": "image",
+                "key": "window-icon"
+            },
+            {
+                "url": "assets/images/Window_Minimize_Button0001(1).png",
+                "type": "image",
+                "key": "window-minimize-button"
+            },
+            {
+                "url": "assets/images/Window_Title_Bar0001(1).png",
+                "type": "image",
+                "key": "window-title-bar"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

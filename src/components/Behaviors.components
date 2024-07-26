@@ -1,0 +1,159 @@
+{
+    "components": [
+        {
+            "name": "Align",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "UserComponent",
+            "gameObjectType": "any",
+            "properties": [
+                {
+                    "name": "up",
+                    "label": "Up",
+                    "tooltip": "Up.",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "middle",
+                    "label": "Middle",
+                    "tooltip": "Middle.",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "down",
+                    "label": "Down",
+                    "tooltip": "Down.",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "left",
+                    "label": "Left",
+                    "tooltip": "Left.",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "center",
+                    "label": "Center",
+                    "tooltip": "Center.",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "right",
+                    "label": "Right",
+                    "tooltip": "Right.",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "horizontalOffset",
+                    "label": "Horizontal Offset",
+                    "tooltip": "The horizontal offset if left or right aligned.",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "verticalOffset",
+                    "label": "Vertical Offset",
+                    "tooltip": "The vertical offset if up or down is aligned.",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PointerButton",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image | Phaser.GameObjects.Rectangle",
+            "properties": [
+                {
+                    "name": "setAlpha",
+                    "label": "Set alpha",
+                    "tooltip": "Sets button alpha as feedback",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ScrollField",
+            "displayName": "Scroll Field",
+            "objectDisplayFormat": "",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "BGRect",
+                    "label": "BG Rect",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.Rectangle"
+                    }
+                },
+                {
+                    "name": "scrollbarRect",
+                    "label": "Scrollbar Rect",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.Rectangle"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "DummyInteractive",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": []
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "exportClass": true,
+    "autoImport": true
+}
