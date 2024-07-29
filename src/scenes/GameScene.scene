@@ -1,0 +1,34 @@
+{
+    "id": "21783b9a-114d-437c-aa31-031d9cd7bb8b",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "game",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "BitmapText",
+            "id": "e8b6a780-cf1a-4302-8684-74cf35efe027",
+            "label": "scriptText",
+            "scope": "CLASS",
+            "x": 78,
+            "y": 479,
+            "text": "New BitmapText",
+            "font": "nokia",
+            "fontSize": -32
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

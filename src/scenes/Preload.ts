@@ -5,7 +5,6 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import EmployeeDefaultAnimations from "~/employee/EmployeeAnim";
 /* START-USER-IMPORTS */
 import fullscreenHandler from "~/FullscreenHandler";
 /* END-USER-IMPORTS */
@@ -50,8 +49,6 @@ export default class Preload extends Phaser.Scene {
 
     this.editorPreload();
 
-    this.resize();
-
     this.scale.autoRound = true;
 
     let _fullscreenHandler = new fullscreenHandler(this.game);
@@ -86,20 +83,13 @@ export default class Preload extends Phaser.Scene {
     });
 
     this.load.on("complete", (key: string, type: string, data: any) => {
-      this.processFiles();
       this.scene.stop(this);
-      this.scene.launch("desktop");
-      this.scene.launch("overlap");
+      this.scene.launch("game");
     });
 
     this.scene.launch("medal");
 
     this.scene.launch("debug");
-  }
-
-  /** Anything that needs to be done before launching DesktopScene */
-  processFiles() {
-    // EmployeeDefaultAnimations.createEmployeeAnimations("", this.game);
   }
 
   /**
@@ -154,10 +144,6 @@ export default class Preload extends Phaser.Scene {
   // 	// LevelSelect.levelSelectEntry = 'titlescreen';
   // 	// this.scene.launch("LevelSelect");
   // }
-
-  resize() {
-    // this.cameras.main.centerOn(0, 0);
-  }
 
   /* END-USER-CODE */
 }

@@ -1,9 +1,10 @@
 /** @format */
 
-import cloudSaves from "./API/SavesData";
+import cloudSaves from "./API/SaveData";
 import medalScene from "./API/medalScene";
 import { newgroundsIOWrapper } from "./API/newgroundsIOWrapper";
 import fullscreenHandler from "./FullscreenHandler";
+import GameScene from "./scenes/GameScene";
 import Preload from "./scenes/Preload";
 
 window.addEventListener("load", function () {
@@ -16,7 +17,6 @@ window.addEventListener("load", function () {
     // url: 'https://www.newgrounds.com/projects/games/1923225/preview',
     version: "0",
 
-    // type: __DEV__ ? Phaser.CANVAS : Phaser.AUTO,
     type: Phaser.AUTO,
     backgroundColor: "#333333",
     scale: {
@@ -32,6 +32,7 @@ window.addEventListener("load", function () {
   game.scene.add("preload", Preload);
   game.scene.add("boot", Boot, true);
   game.scene.add("medal", medalScene);
+  game.scene.add("game", GameScene);
 });
 
 class Boot extends Phaser.Scene {
@@ -61,8 +62,6 @@ class Boot extends Phaser.Scene {
     });
 
     this.setSaveDataKeys();
-
-    this.input.setGlobalTopOnly(true);
   }
 
   /**
