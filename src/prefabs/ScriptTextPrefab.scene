@@ -1,12 +1,12 @@
 {
-    "id": "21783b9a-114d-437c-aa31-031d9cd7bb8b",
-    "sceneType": "SCENE",
+    "id": "7f4b6bdc-9a00-466d-93ac-ebb1c95e95f2",
+    "sceneType": "PREFAB",
     "settings": {
         "exportClass": true,
         "autoImport": true,
+        "preloadMethodName": "",
         "preloadPackFiles": [],
-        "createMethodName": "editorCreate",
-        "sceneKey": "game",
+        "createMethodName": "",
         "compilerOutputLanguage": "TYPE_SCRIPT",
         "borderWidth": 1280,
         "borderHeight": 720
@@ -14,14 +14,19 @@
     "displayList": [
         {
             "type": "BitmapText",
-            "id": "e8b6a780-cf1a-4302-8684-74cf35efe027",
+            "id": "efabd15e-cfd8-469b-b9df-f6d92a7e4bb6",
             "label": "scriptText",
             "scope": "CLASS",
-            "x": 78,
-            "y": 479,
+            "x": -162,
+            "y": -20,
+            "tintTopLeft": "#3b3b3b",
+            "tintTopRight": "#3b3b3b",
+            "tintBottomLeft": "#3b3b3b",
+            "tintBottomRight": "#3b3b3b",
             "text": "New BitmapText",
-            "font": "nokia",
-            "fontSize": -40
+            "font": "calibri",
+            "fontSize": -40,
+            "maxWidth": 950
         }
     ],
     "plainObjects": [],

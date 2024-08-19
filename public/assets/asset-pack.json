@@ -2,9 +2,16 @@
     "section1": {
         "files": [
             {
-                "url": "assets/images/bobby-head.png",
-                "type": "image",
-                "key": "bobby-head"
+                "type": "multiatlas",
+                "url": "assets/images/character-sprites/test-1/alien-test-1.json",
+                "path": "assets/images/character-sprites/test-1",
+                "key": "alien-test-1"
+            },
+            {
+                "textureURL": "assets/fonts/calibri.png",
+                "fontDataURL": "assets/fonts/calibri.xml",
+                "type": "bitmapFont",
+                "key": "calibri"
             },
             {
                 "textureURL": "assets/fonts/nokia.png",
@@ -13,9 +20,37 @@
                 "key": "nokia"
             },
             {
+                "url": "assets/images/backgrounds/oval-office.png",
+                "type": "image",
+                "key": "oval-office"
+            },
+            {
+                "url": "assets/script/set-test.json",
+                "type": "json",
+                "key": "set-test"
+            },
+            {
+                "url": "assets/images/character sprites/S3_Sticker_BD-CDBDY_character.png",
+                "type": "image",
+                "key": "splatoon-fish"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/images/character-sprites/test-2/test-2.json",
+                "path": "assets/images/character-sprites/test-2",
+                "key": "test-2"
+            },
+            {
                 "url": "assets/white-px.png",
                 "type": "image",
                 "key": "white-px"
+            },
+            {
+                "url": [
+                    "assets/sfx/ZeldaCDI-die.mp3"
+                ],
+                "type": "audio",
+                "key": "ZeldaCDI-die"
             }
         ]
     },

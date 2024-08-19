@@ -4,7 +4,9 @@ import cloudSaves from "./API/SaveData";
 import medalScene from "./API/medalScene";
 import { newgroundsIOWrapper } from "./API/newgroundsIOWrapper";
 import fullscreenHandler from "./FullscreenHandler";
+import DialogueScene from "./scenes/DialogueScene";
 import GameScene from "./scenes/GameScene";
+import IllustrationScene from "./scenes/IllustrationScene";
 import Preload from "./scenes/Preload";
 
 window.addEventListener("load", function () {
@@ -27,12 +29,17 @@ window.addEventListener("load", function () {
       // width: 1920,
       // height: 1080,
     },
+    input: {
+      gamepad: true,
+    },
   });
 
   game.scene.add("preload", Preload);
   game.scene.add("boot", Boot, true);
   game.scene.add("medal", medalScene);
   game.scene.add("game", GameScene);
+  game.scene.add("dialogue", DialogueScene);
+  game.scene.add("illustration", IllustrationScene);
 });
 
 class Boot extends Phaser.Scene {

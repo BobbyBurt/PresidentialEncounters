@@ -6,68 +6,37 @@
 
 import Phaser from "phaser";
 /* START-USER-IMPORTS */
-import setScript from "script/testSet2.json";
+import setScriptJSON from "script/testSet2.json";
 /* END-USER-IMPORTS */
 
 export default class GameScene extends Phaser.Scene {
-  constructor() {
-    super("game");
 
-    /* START-USER-CTR-CODE */
+	constructor() {
+		super("game");
+
+		/* START-USER-CTR-CODE */
     // Write your code here.
     /* END-USER-CTR-CODE */
-  }
+	}
 
-  editorCreate(): void {
-    // scriptText
-    const scriptText = this.add.bitmapText(78, 479, "nokia", "New BitmapText");
-    scriptText.text = "New BitmapText";
-    scriptText.fontSize = -32;
+	editorCreate(): void {
 
-    this.scriptText = scriptText;
+		// scriptText
+		const scriptText = this.add.bitmapText(78, 479, "nokia", "New BitmapText");
+		scriptText.text = "New BitmapText";
+		scriptText.fontSize = -40;
 
-    this.events.emit("scene-awake");
-  }
+		this.scriptText = scriptText;
 
-  private scriptText!: Phaser.GameObjects.BitmapText;
+		this.events.emit("scene-awake");
+	}
 
-  /* START-USER-CODE */
+	private scriptText!: Phaser.GameObjects.BitmapText;
 
-  script: Array<string>;
-  scriptIndex = 0;
+	/* START-USER-CODE */
 
   create() {
     this.editorCreate();
-
-    this.readScript();
-
-    this.input.keyboard?.on(`keydown-A`, () => {
-      this.advanceText();
-    });
-  }
-
-  readScript() {
-    this.script = setScript.dialogueSequence.split(`\\`);
-
-    this.scriptText.setText(this.script[0]);
-
-    // let dialogueTest: dialogueSequence = { dialogue: 'This is my awsome dialogue \\ I could do this all day!', characterName: 'President (you)'}
-  }
-
-  advanceText() {
-    this.scriptIndex++;
-
-    if (this.scriptIndex >= this.script.length) {
-      return;
-    }
-
-    if (this.script[this.scriptIndex].includes("NAME: ")) {
-      console.debug(this.script[this.scriptIndex].slice(8));
-      this.advanceText();
-      return;
-    }
-
-    this.scriptText.setText(this.script[this.scriptIndex]);
   }
 
   /* END-USER-CODE */

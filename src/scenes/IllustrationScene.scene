@@ -1,0 +1,144 @@
+{
+    "id": "341c41c7-d3ac-4b86-a895-fc7470d73be8",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "illustration",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "694a60e6-a0fb-426b-91e2-514d7ad45bcd",
+            "label": "whiteBG",
+            "x": 640,
+            "y": 360,
+            "isFilled": true,
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "type": "Image",
+            "id": "6f7bf272-6696-478e-b282-b17d89c1e809",
+            "label": "oval_office",
+            "texture": {
+                "key": "oval-office"
+            },
+            "x": 640,
+            "y": 360,
+            "alpha": 0.7,
+            "alphaTopLeft": 0.7,
+            "alphaTopRight": 0.7,
+            "alphaBottomLeft": 0.7,
+            "alphaBottomRight": 0.7
+        },
+        {
+            "type": "Sprite",
+            "id": "61dc7754-d592-4e82-b0b7-869744c99572",
+            "label": "alienBody",
+            "scope": "CLASS",
+            "texture": {
+                "key": "alien-test-1",
+                "frame": "idle-body/0000"
+            },
+            "x": 369,
+            "y": 371,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "7f0d7c78-24b7-470c-9c5f-c78de177f6c5",
+            "label": "alienHead",
+            "scope": "CLASS",
+            "texture": {
+                "key": "alien-test-1",
+                "frame": "idle-head/0000"
+            },
+            "x": 369,
+            "y": 371,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "c498bd8c-1c35-4774-a4ed-79bea3776d5f",
+            "label": "alienFace",
+            "scope": "CLASS",
+            "texture": {
+                "key": "alien-test-1",
+                "frame": "idle-face/0000"
+            },
+            "x": 369,
+            "y": 371,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "928931f2-7825-4a25-b87d-e841d61df5d1",
+            "label": "body_png",
+            "scope": "CLASS",
+            "texture": {
+                "key": "test-2",
+                "frame": "body"
+            },
+            "x": 893,
+            "y": 368,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "94113a90-98b4-4ecb-ae65-1558e6bd3f3d",
+            "label": "head_png",
+            "scope": "CLASS",
+            "texture": {
+                "key": "test-2",
+                "frame": "head"
+            },
+            "x": 893,
+            "y": 368,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "7c17b211-ccbd-47e4-9c53-89cb7c847f89",
+            "label": "face_png",
+            "scope": "CLASS",
+            "texture": {
+                "key": "test-2",
+                "frame": "face0001"
+            },
+            "x": 893,
+            "y": 368,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "visible": false
+        },
+        {
+            "prefabId": "58918baf-388c-4c28-b55e-381045f8b513",
+            "id": "104d97f4-2801-4f8e-93dc-0ed2141f6a15",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "characterContainer",
+            "scope": "CLASS",
+            "x": 654,
+            "y": 309
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

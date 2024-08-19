@@ -84,7 +84,9 @@ export default class Preload extends Phaser.Scene {
 
     this.load.on("complete", (key: string, type: string, data: any) => {
       this.scene.stop(this);
-      this.scene.launch("game");
+      // this.scene.launch("game");
+      this.scene.launch("illustration");
+      this.scene.launch("dialogue");
     });
 
     this.scene.launch("medal");

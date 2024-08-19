@@ -1,0 +1,33 @@
+{
+  "dialogueSequences": [
+    [
+      "pres-test; \\NAME:  \\You wake up in a cold sweat. The woman beside you stirs under heavy blankets.",
+      "\\NAME: First Lady\\What is it sugar-booger?",
+      "\\NAME: You\\*Huff*... It's nothing.",
+      "\\NAME: First Lady\\Was it that dream again?",
+      "\\NAME: You\\...",
+      "\\NAME: First Lady\\The one where you lose your bid for reelection?",
+      "\\NAME: You\\...",
+      "\\NAME: First Lady\\The one where you let down this nation and the American People?",
+      "\\NAME: You\\...",
+      "\\NAME: First Lady\\And then you get pantsed by Wolf Blitzer on live television? That one?",
+      "\\NAME: You\\Yeah, that one. Gosh darn it, sometimes I don't feel cut out for this job. Millions of good folk trust me to lead this country and make the right choices.",
+      "Oftentimes I feel like I'm not even qualified to choose my own darn breakfast cereal.",
+      "\\NAME: First Lady\\Oh Sweetie Pie, you're more than qualified! You just have to mind your glucose levels-",
+      "\\NAME: You\\The fate of the nation hinges on every policy decision, every campaign strategy, every word I breath to the press. It's just… too many consequential choices.",
+      "\\NAME: First Lady\\You put way too much pressure on yourself! Just take it slow, and make the choices one at a time.",
+      "Let's start with an easy one. Honey Bunches, or Raisin Bran?"
+    ],
+    [
+      "pres-test-2; This is another dialogue sequence.",
+      "Die!\\AUDIO: ZeldaCDI-die\\",
+      "Here's another another dialogue screen. ",
+      "Here's some \\TEXT: highlighted\\ highlighted\\TEXT: default\\ text."
+    ],
+    [
+      "pres-tes; One more. just curious about the order.",
+      "Here's another another dialogue screen. ",
+      "Here's some \\TEXT: highlighted\\ highlighted\\NEXT: pres-test\\ text."
+    ]
+  ]
+}
