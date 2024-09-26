@@ -1,10 +1,7 @@
 {
   "dialogueSequences": [
     [
-      "control-test; asdf",
-      "Testing tween. \\TWEEN: appear-left\\",
-      "Testing fade. \\FADE: out\\",
-      "Testing fade. \\FADE: in\\",
+      "control-test; Hey this is the other set of dialogue sequences.",
       "Testing text. \\NEXT: pres-test-2\\",
       "Testing text. \\FONT-SIZE: 30\\",
       "\\FONT: calibri-bold\\Die!\\AUDIO: ZeldaCDI-die\\",
@@ -14,7 +11,7 @@
       "Testing invalid tween. \\TWEEN: asdf\\",
       "Testing tween. \\TWEEN: bounce\\",
       "Testing tween. \\TWEEN: shake\\",
-      "Testing tween. \\TWEEN: float-up\\ \\LOAD-SET: set-test-2\\",
+      "Testing tween. \\TWEEN: float-up\\",
       "Testing tween. \\TWEEN: fall-in\\ \\NEXT: CHOICE-choice-test\\"
     ],
     [

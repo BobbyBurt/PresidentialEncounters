@@ -13,6 +13,18 @@
     },
     "displayList": [
         {
+            "prefabId": "466def27-7fbe-4ca5-871b-b99bd3c3f0d0",
+            "id": "bb0b964d-407a-47a8-8c8a-3a5e11cacfd5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "characterName",
+            "scope": "PUBLIC",
+            "x": 114,
+            "y": 444
+        },
+        {
             "type": "Rectangle",
             "id": "a0616808-d2d2-40b0-9618-e3b63eac618f",
             "label": "dialogueBack",
@@ -33,41 +45,9 @@
                 "y"
             ],
             "label": "scriptText",
-            "scope": "CLASS",
+            "scope": "PUBLIC",
             "x": 146,
             "y": 523
-        },
-        {
-            "type": "Rectangle",
-            "id": "76b925fb-8044-420e-a786-baff79309966",
-            "label": "dialogueBack_1",
-            "x": 115,
-            "y": 447,
-            "originX": 0,
-            "originY": 0,
-            "isFilled": true,
-            "fillAlpha": 0.8,
-            "lineWidth": 5,
-            "isStroked": true,
-            "width": 300,
-            "height": 60
-        },
-        {
-            "type": "BitmapText",
-            "id": "1f0a59a8-bcf1-4966-871f-6fb6ed0240ae",
-            "label": "characterNameText",
-            "scope": "CLASS",
-            "x": 146,
-            "y": 451,
-            "tintTopLeft": "#3b3b3b",
-            "tintTopRight": "#3b3b3b",
-            "tintBottomLeft": "#3b3b3b",
-            "tintBottomRight": "#3b3b3b",
-            "text": "Character name",
-            "font": "calibri",
-            "fontSize": -40,
-            "dropShadowAlpha": 0,
-            "dropShadowColor": "#757575ff"
         }
     ],
     "plainObjects": [],

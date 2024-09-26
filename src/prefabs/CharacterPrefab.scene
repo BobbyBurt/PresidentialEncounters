@@ -20,7 +20,7 @@
                 {
                     "type": "Sprite",
                     "id": "dd40add9-f87a-48f0-bdb5-0a80b41e9ab6",
-                    "label": "bodySprite",
+                    "label": "sprite1",
                     "scope": "CLASS",
                     "texture": {
                         "key": "alien-test-1",
@@ -29,14 +29,13 @@
                 },
                 {
                     "type": "Sprite",
-                    "id": "9285040b-57d9-4483-919a-a970653003ea",
-                    "label": "faceSprite",
+                    "id": "9e1a8efe-0617-4479-bb78-dafc2f3b097d",
+                    "label": "sprite2",
                     "scope": "CLASS",
                     "texture": {
                         "key": "alien-test-1",
-                        "frame": "idle-face/0000"
-                    },
-                    "y": 59
+                        "frame": "idle-body/0000"
+                    }
                 }
             ]
         }

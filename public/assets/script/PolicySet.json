@@ -1,42 +1,42 @@
 {
   "dialogueSequences": [
     [
-      "control-test; asdf",
-      "Testing tween. \\TWEEN: appear-left\\",
-      "Testing fade. \\FADE: out\\",
-      "Testing fade. \\FADE: in\\",
-      "Testing text. \\NEXT: pres-test-2\\",
-      "Testing text. \\FONT-SIZE: 30\\",
-      "\\FONT: calibri-bold\\Die!\\AUDIO: ZeldaCDI-die\\",
-      "Testing text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum, dolor ac egestas tincidunt, felis magna vehicula nunc, quis lobortis erat arcu vel odio.  \\FONT-SIZE: 60\\",
-      "Testing text. \\FONT: calibri\\",
-      "Testing anim. \\ANIM: idle\\",
-      "Testing invalid tween. \\TWEEN: asdf\\",
-      "Testing tween. \\TWEEN: bounce\\",
-      "Testing tween. \\TWEEN: shake\\",
-      "Testing tween. \\TWEEN: float-up\\ \\LOAD-SET: set-test-2\\",
-      "Testing tween. \\TWEEN: fall-in\\ \\NEXT: CHOICE-choice-test\\"
+      "seq-1; \\NAME:  \\After muscling down my disappointing bowl of soggy cereal, I lumber through the tedious morning routine.",
+      "The fog of fatigue breaks, and my overcrowded schedule moves to the front of mind.",
+      "Dozens of meetings before lunchtime. Campaign policy. Tax reform. Finalizing the pick for Vice-President.",
+      "Before I can even brace myself for the busy day, I find myself in the first of many meetings.",
+      "\\NAME: Bob\\ \\ANIM: bickerton-idle\\ \\TWEEN: appear-left\\ Your opponent, Senator Stringent, held a massive rally in Pennsylvania last night, and announced all of his major policy positions.",
+      "\\NAME: President\\Okay... are they any good? ",
+      "\\NAME: Bickerton\\ \\ANIM: bickerton-talk\\ \\TWEEN: talk-dip\\ Doesn't matter. You haven't announced any of your own policies.",
+      "We can't attack his platform until you have your own.",
+      "\\NAME: President\\\\ANIM: bickerton-idle\\I already have a platform! It won the election four years ago!",
+      "Let's run it again!",
+      "\\NAME: Bickerton\\\\ANIM: bickerton-talk\\\\TWEEN: talk-dip\\You can't just promise free vasectomies and vasectomy reversals again... they're already free.",
+      "You need something new.",
+      "\\NAME: Bob\\ \\ANIM: bickerton-angle-idle\\ \\TWEEN: shift-right\\ Shoot. Can't he just point to our excellent record?",
+      "We've been doing a bang up job so far. We're the ones with a can-do attitude.",
+      "Senator Stringent, he's just so negative all the time. Who would want Mr. Grumpy Pants in the Oval Office?",
+      "\\NAME: Bickerton\\At the moment, 65% of the country.\\ANIM: bickerton-angle-talk\\\\TWEEN: talk-dip\\",
+      "You can't run a campaign on good vibrations, Sir.\\ANIM: bickerton-talk\\\\TWEEN: shift-left\\",
+      "\\NAME: President\\Oh alright... what are the top concerns with voters?\\ANIM: bickerton-idle\\",
+      "\\NAME: Bob\\In the past year? I'd say...\\ANIM: bickerton-angle-idle\\\\TWEEN: shift-right\\",
+      "Cost of living.",
+      "\\NAME: Bickerton\\Mm.\\ANIM: bickerton-angle-nod\\",
+      "\\NAME: President\\Too hard, pass!\\ANIM: bickerton-idle\\\\TWEEN: shift-left\\"
     ],
     [
-      "CHOICE-choice-test-2; \\SAVE-CHOICE\\What do you think of the movie Sherlock Holmes: A Game of Shadows?",
-      "\\NEXT: response-1\\Uhhh.... I dunno.",
-      "\\NEXT: response-2\\It's the best movie yet!",
-      "\\NEXT: response-3\\I'm lukewarm on Robert Downey Jr's performance.",
-      "\\NEXT: response-4\\Absolute tarnish on Sherlock Holmes' legacy."
-    ],
-    [
-      "CHOICE-choice-test; What do you think of the movie Sherlock Holmes: A Game of Shadows?",
+      "CHOICE-policy; That leaves us with these,\\ANIM: bickerton-talk\\\\TWEEN: talk-dip\\",
 
-      "Uhhh.... I dunno.",
+      "OBAMACARE",
       "response-1",
 
-      "It's the best movie yet!",
+      "Foreign Policy",
       "response-2",
 
-      "I'm lukewarm on Robert Downey Jr's performance.",
+      "The France War",
       "response-3",
 
-      "Absolute tarnish on Sherlock Holmes' legacy.",
+      "Row V Wade",
       "response-4"
     ],
     [

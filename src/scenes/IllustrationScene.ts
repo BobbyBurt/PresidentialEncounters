@@ -7,6 +7,10 @@
 import Phaser from "phaser";
 import CharacterPrefab from "../prefabs/CharacterPrefab";
 /* START-USER-IMPORTS */
+import characterTweenLibrary, {
+  characterTween,
+} from "~/data/characterTweenLibrary";
+import Director from "~/Director";
 /* END-USER-IMPORTS */
 
 export default class IllustrationScene extends Phaser.Scene {
@@ -101,40 +105,61 @@ export default class IllustrationScene extends Phaser.Scene {
 
   /* START-USER-CODE */
 
+  /**
+   * Which character will animations and tweens be applied to.
+   */
+  public animatedCharacter: characterKey;
+  private characterContainerMap = new Map<
+    characterKey,
+    Phaser.GameObjects.Container
+  >();
+
+  activeTween: Phaser.Tweens.Tween;
+
   create() {
     this.editorCreate();
 
     this.scene.sendToBack();
 
-    this.characterContainer.createAnims("alien-test-1", [
-      { key: "idle", repeat: -1, end: 31 },
+    Director.instance.illustrationScene = this;
+
+    this.characterContainer.createAnims("bickerton", [
+      { key: "talk", repeat: -1, end: 0 },
+      { key: "idle", repeat: -1, end: 0 },
+      { key: "angle-talk", repeat: -1, end: 0 },
+      { key: "angle-idle", repeat: -1, end: 0 },
+      { key: "angle-nod", repeat: 0, end: 30 },
     ]);
-    this.characterContainer.playAnim("idle");
-    this.tweens.add({
-      targets: this.characterContainer,
-    });
+  }
 
-    // this.alienFace.anims.create({
-    //   key: "idle",
-    //   repeat: -1,
-    //   frames: this.anims.generateFrameNames("alien-test-1", {
-    //     prefix: "idle-face/",
-    //     zeroPad: 4,
-    //     end: 31,
-    //   }),
-    // });
-    // this.alienFace.anims.play("idle");
+  public playAnim(key: string) {
+    this.characterContainer.playAnim(key, true);
+  }
 
-    // this.face_png.anims.create({
-    //   key: "idle",
-    //   repeat: -1,
-    //   frames: this.anims.generateFrameNames("test-2", {
-    //     prefix: "face",
-    //     zeroPad: 4,
-    //     end: 5,
-    //   }),
-    // });
-    // this.face_png.anims.play("idle");
+  public playTween(tweenConfig: characterTween) {
+    let tweenConfigInstance: characterTween = { targets: undefined };
+    Object.assign(tweenConfigInstance, tweenConfig);
+    // Necessary because objects are assign by reference.
+
+    let characterContainer = this.characterContainer;
+    tweenConfigInstance.targets = characterContainer;
+    if (tweenConfigInstance.x && tweenConfigInstance.relativePosition) {
+      tweenConfigInstance.x = characterContainer.x + tweenConfigInstance.x;
+    }
+    if (tweenConfigInstance.y && tweenConfigInstance.relativePosition) {
+      tweenConfigInstance.y = characterContainer.y + tweenConfigInstance.y;
+    }
+    if (tweenConfigInstance.startingX) {
+      characterContainer.setX(tweenConfigInstance.startingX);
+    }
+    if (tweenConfigInstance.startingY) {
+      characterContainer.setY(tweenConfigInstance.startingY);
+    }
+    if (this.activeTween) {
+      this.activeTween.remove();
+    }
+    this.activeTween = this.tweens.add(tweenConfigInstance);
+    this.activeTween.play();
   }
 
   /* END-USER-CODE */
@@ -142,4 +167,4 @@ export default class IllustrationScene extends Phaser.Scene {
 
 /* END OF COMPILED CODE */
 
-// You can write more code here
+export type characterKey = "alien" | "pres" | "wife";

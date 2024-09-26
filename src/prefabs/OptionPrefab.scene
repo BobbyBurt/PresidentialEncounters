@@ -1,0 +1,73 @@
+{
+    "id": "499944c5-eeab-4ad8-9b51-090449c322bc",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "aa6edba7-35a9-4c0f-86fd-4b0c9ae39a5a",
+            "label": "optionContainer",
+            "scope": "PUBLIC",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9e2de7f6-6108-4104-b052-d992e8e735d9",
+                    "label": "backing",
+                    "scope": "CLASS",
+                    "originX": 0,
+                    "originY": 0,
+                    "isFilled": true,
+                    "fillAlpha": 0.8,
+                    "lineWidth": 5,
+                    "isStroked": true,
+                    "width": 500,
+                    "height": 80
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "a5699b09-c235-425b-ac83-67f2b2f3d5de",
+                    "label": "text",
+                    "scope": "PUBLIC",
+                    "x": 22,
+                    "y": 13,
+                    "tintTopLeft": "#3b3b3b",
+                    "tintTopRight": "#3b3b3b",
+                    "tintBottomLeft": "#3b3b3b",
+                    "tintBottomRight": "#3b3b3b",
+                    "text": "Lorem ipsum dolor sit amet.",
+                    "font": "calibri",
+                    "fontSize": -40,
+                    "maxWidth": 470
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "optionNumber",
+            "label": "optionNumber",
+            "tooltip": "0-3",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

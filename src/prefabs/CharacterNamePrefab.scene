@@ -1,0 +1,61 @@
+{
+    "id": "466def27-7fbe-4ca5-871b-b99bd3c3f0d0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8bef9f8f-df33-41aa-bbb8-4108c9d261a2",
+            "label": "characterName",
+            "scope": "PUBLIC",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "76b925fb-8044-420e-a786-baff79309966",
+                    "label": "backRect",
+                    "originX": 0,
+                    "originY": 0,
+                    "isFilled": true,
+                    "fillAlpha": 0.8,
+                    "lineWidth": 5,
+                    "isStroked": true,
+                    "width": 300,
+                    "height": 60
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "1f0a59a8-bcf1-4966-871f-6fb6ed0240ae",
+                    "label": "characterNameText",
+                    "scope": "PUBLIC",
+                    "x": 9,
+                    "y": 6,
+                    "tintTopLeft": "#3b3b3b",
+                    "tintTopRight": "#3b3b3b",
+                    "tintBottomLeft": "#3b3b3b",
+                    "tintBottomRight": "#3b3b3b",
+                    "text": "Character name",
+                    "font": "calibri",
+                    "fontSize": -40,
+                    "dropShadowAlpha": 0,
+                    "dropShadowColor": "#757575ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

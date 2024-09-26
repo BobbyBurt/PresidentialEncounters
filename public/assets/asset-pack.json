@@ -8,10 +8,22 @@
                 "key": "alien-test-1"
             },
             {
+                "type": "multiatlas",
+                "url": "assets/images/character-sprites/bickerton/bickerton.json",
+                "path": "assets/images/character-sprites/bickerton",
+                "key": "bickerton"
+            },
+            {
                 "textureURL": "assets/fonts/calibri.png",
                 "fontDataURL": "assets/fonts/calibri.xml",
                 "type": "bitmapFont",
                 "key": "calibri"
+            },
+            {
+                "textureURL": "assets/fonts/calibri-bold.png",
+                "fontDataURL": "assets/fonts/calibri-bold.xml",
+                "type": "bitmapFont",
+                "key": "calibri-bold"
             },
             {
                 "textureURL": "assets/fonts/nokia.png",
@@ -25,9 +37,19 @@
                 "key": "oval-office"
             },
             {
+                "url": "assets/script/PolicySet.json",
+                "type": "json",
+                "key": "PolicySet"
+            },
+            {
                 "url": "assets/script/set-test.json",
                 "type": "json",
                 "key": "set-test"
+            },
+            {
+                "url": "assets/script/set-test-2.json",
+                "type": "json",
+                "key": "set-test-2"
             },
             {
                 "url": "assets/images/character sprites/S3_Sticker_BD-CDBDY_character.png",

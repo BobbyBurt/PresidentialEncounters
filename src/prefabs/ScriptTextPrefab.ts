@@ -9,24 +9,23 @@ import Phaser from "phaser";
 /* END-USER-IMPORTS */
 
 export default class ScriptTextPrefab extends Phaser.GameObjects.BitmapText {
+  constructor(scene: Phaser.Scene, x?: number, y?: number, font?: string) {
+    super(scene, x ?? -162, y ?? -20, font ?? "calibri");
 
-	constructor(scene: Phaser.Scene, x?: number, y?: number, font?: string) {
-		super(scene, x ?? -162, y ?? -20, font ?? "calibri");
+    this.tintTopLeft = 3881787;
+    this.tintTopRight = 3881787;
+    this.tintBottomLeft = 3881787;
+    this.tintBottomRight = 3881787;
+    this.text = "New BitmapText";
+    this.fontSize = -40;
+    this.maxWidth = 950;
 
-		this.tintTopLeft = 3881787;
-		this.tintTopRight = 3881787;
-		this.tintBottomLeft = 3881787;
-		this.tintBottomRight = 3881787;
-		this.text = "New BitmapText";
-		this.fontSize = -40;
-		this.maxWidth = 950;
-
-		/* START-USER-CTR-CODE */
+    /* START-USER-CTR-CODE */
     // Write your code here.
     /* END-USER-CTR-CODE */
-	}
+  }
 
-	/* START-USER-CODE */
+  /* START-USER-CODE */
 
   readonly MAX_LINES = 3;
 
@@ -47,6 +46,8 @@ export default class ScriptTextPrefab extends Phaser.GameObjects.BitmapText {
     this.dialogue = wrappedText;
     this.setText("");
 
+    this.blankNameCheck();
+
     if (wrappedText.split(`\n`).length > this.MAX_LINES + 1) {
       console.warn("Max dialogue lines exceeded!");
     }
@@ -57,7 +58,7 @@ export default class ScriptTextPrefab extends Phaser.GameObjects.BitmapText {
     }
     this.typewriterCharEvent = this.scene.time.addEvent({
       loop: true,
-      delay: 50,
+      delay: 40,
       callback: () => {
         if (this.dialogue.length < this.text.length) {
           this.typewriterCharEvent.remove();
@@ -68,6 +69,20 @@ export default class ScriptTextPrefab extends Phaser.GameObjects.BitmapText {
         this.typewriterCharIndex++;
       },
     });
+  }
+
+  /** Set container's visibility based on if there's a name set. */
+  private blankNameCheck() {
+    if (
+      this.dialogue == undefined ||
+      this.dialogue === "" ||
+      this.dialogue === " " ||
+      this.dialogue === "  "
+    ) {
+      this.setVisible(false);
+    } else {
+      this.setVisible(true);
+    }
   }
 
   /* END-USER-CODE */

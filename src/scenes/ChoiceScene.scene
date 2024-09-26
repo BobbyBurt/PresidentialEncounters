@@ -1,0 +1,92 @@
+{
+    "id": "0280aefc-8313-4718-b334-26928de84d2b",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "choice",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "prefabId": "499944c5-eeab-4ad8-9b51-090449c322bc",
+            "id": "3e1d8b61-75fc-4833-bb92-2380590c7e81",
+            "unlock": [
+                "x",
+                "y",
+                "optionNumber"
+            ],
+            "label": "optionPrefab1",
+            "scope": "PUBLIC",
+            "optionNumber": 0,
+            "x": 112,
+            "y": 212
+        },
+        {
+            "prefabId": "499944c5-eeab-4ad8-9b51-090449c322bc",
+            "id": "76e64ac3-b0f9-418e-9719-7a87800c31e1",
+            "unlock": [
+                "x",
+                "y",
+                "optionNumber"
+            ],
+            "label": "optionPrefab2",
+            "scope": "PUBLIC",
+            "optionNumber": 1,
+            "x": 662,
+            "y": 212
+        },
+        {
+            "prefabId": "499944c5-eeab-4ad8-9b51-090449c322bc",
+            "id": "335b9c05-2918-4b2f-ad7e-2d9fe6796f5f",
+            "unlock": [
+                "x",
+                "y",
+                "optionNumber"
+            ],
+            "label": "optionPrefab3",
+            "scope": "PUBLIC",
+            "optionNumber": 2,
+            "x": 112,
+            "y": 326
+        },
+        {
+            "prefabId": "499944c5-eeab-4ad8-9b51-090449c322bc",
+            "id": "d9d943b7-97f0-4b63-8ec4-bb5927b36300",
+            "unlock": [
+                "x",
+                "y",
+                "optionNumber"
+            ],
+            "label": "optionPrefab4",
+            "scope": "PUBLIC",
+            "optionNumber": 3,
+            "x": 662,
+            "y": 326
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "72e9eee1-b062-49ab-8178-ee930a20457b",
+            "label": "optionList",
+            "objectIds": [
+                "3e1d8b61-75fc-4833-bb92-2380590c7e81",
+                "76e64ac3-b0f9-418e-9719-7a87800c31e1",
+                "335b9c05-2918-4b2f-ad7e-2d9fe6796f5f",
+                "d9d943b7-97f0-4b63-8ec4-bb5927b36300"
+            ],
+            "scope": "PUBLIC"
+        }
+    ]
+}

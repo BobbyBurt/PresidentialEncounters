@@ -1,0 +1,398 @@
+{
+	"textures": [
+		{
+			"image": "bickerton.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1710,
+				"h": 661
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bickerton-angle-nod/0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 37,
+						"w": 231,
+						"h": 659
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 659
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 37,
+						"w": 231,
+						"h": 659
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 659
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 37,
+						"w": 231,
+						"h": 659
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 659
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 37,
+						"w": 231,
+						"h": 659
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 659
+					}
+				},
+				{
+					"filename": "bickerton-angle-idle/0000",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 40,
+						"w": 238,
+						"h": 656
+					},
+					"frame": {
+						"x": 234,
+						"y": 1,
+						"w": 238,
+						"h": 656
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0000",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 40,
+						"w": 238,
+						"h": 656
+					},
+					"frame": {
+						"x": 234,
+						"y": 1,
+						"w": 238,
+						"h": 656
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 40,
+						"w": 238,
+						"h": 656
+					},
+					"frame": {
+						"x": 234,
+						"y": 1,
+						"w": 238,
+						"h": 656
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 40,
+						"w": 238,
+						"h": 656
+					},
+					"frame": {
+						"x": 234,
+						"y": 1,
+						"w": 238,
+						"h": 656
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 43,
+						"w": 243,
+						"h": 653
+					},
+					"frame": {
+						"x": 474,
+						"y": 1,
+						"w": 243,
+						"h": 653
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 43,
+						"w": 243,
+						"h": 653
+					},
+					"frame": {
+						"x": 474,
+						"y": 1,
+						"w": 243,
+						"h": 653
+					}
+				},
+				{
+					"filename": "bickerton-angle-talk/0000",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 46,
+						"w": 244,
+						"h": 650
+					},
+					"frame": {
+						"x": 719,
+						"y": 1,
+						"w": 244,
+						"h": 650
+					}
+				},
+				{
+					"filename": "bickerton-idle/0000",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 163,
+						"y": 53,
+						"w": 246,
+						"h": 646
+					},
+					"frame": {
+						"x": 965,
+						"y": 1,
+						"w": 246,
+						"h": 646
+					}
+				},
+				{
+					"filename": "bickerton-talk/0000",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 163,
+						"y": 53,
+						"w": 246,
+						"h": 646
+					},
+					"frame": {
+						"x": 1213,
+						"y": 1,
+						"w": 246,
+						"h": 646
+					}
+				},
+				{
+					"filename": "bickerton-talk/0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 163,
+						"y": 53,
+						"w": 246,
+						"h": 646
+					},
+					"frame": {
+						"x": 1213,
+						"y": 1,
+						"w": 246,
+						"h": 646
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 53,
+						"w": 248,
+						"h": 643
+					},
+					"frame": {
+						"x": 1461,
+						"y": 1,
+						"w": 248,
+						"h": 643
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 53,
+						"w": 248,
+						"h": 643
+					},
+					"frame": {
+						"x": 1461,
+						"y": 1,
+						"w": 248,
+						"h": 643
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 53,
+						"w": 248,
+						"h": 643
+					},
+					"frame": {
+						"x": 1461,
+						"y": 1,
+						"w": 248,
+						"h": 643
+					}
+				},
+				{
+					"filename": "bickerton-angle-nod/0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 700
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 53,
+						"w": 248,
+						"h": 643
+					},
+					"frame": {
+						"x": 1461,
+						"y": 1,
+						"w": 248,
+						"h": 643
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1a1aabcad44863f5160937bb11f80d7e:abcd44ea32fdf455021ee01a3fe89164:c4b3e34037cb089f81aaa287434f71ca$"
+	}
+}

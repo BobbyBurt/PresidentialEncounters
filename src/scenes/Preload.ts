@@ -5,6 +5,7 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
+import Director from "~/Director";
 /* START-USER-IMPORTS */
 import fullscreenHandler from "~/FullscreenHandler";
 /* END-USER-IMPORTS */
@@ -54,17 +55,9 @@ export default class Preload extends Phaser.Scene {
     let _fullscreenHandler = new fullscreenHandler(this.game);
     // is this garbage collected when this scene stops?
 
-    // TEMP
-    this.game.registry.set("total-score", 0);
-
-    // camera
     this.cameras.main.setOrigin(0, 0);
     this.cameras.main.setViewport(0, 0, this.scale.width, this.scale.height);
     this.cameras.main.setBackgroundColor(0x242424);
-
-    // start input
-    // window.addEventListener('touchstart', this.onPointer);
-    // window.addEventListener('click', this.onPointer);
 
     // load event
     this.load.on(Phaser.Loader.Events.COMPLETE, () => {
@@ -83,71 +76,18 @@ export default class Preload extends Phaser.Scene {
     });
 
     this.load.on("complete", (key: string, type: string, data: any) => {
+      Director.instance.loadSet("PolicySet", this.game);
+
       this.scene.stop(this);
-      // this.scene.launch("game");
       this.scene.launch("illustration");
       this.scene.launch("dialogue");
+      this.scene.launch("choice");
     });
 
     this.scene.launch("medal");
 
     this.scene.launch("debug");
   }
-
-  /**
-   * Set registry's mobile value based on input.
-   *
-   * Start the game if loaded.
-   */
-  // onPointer = (event:any) =>
-  // {
-  // // set registry's mobile value
-  // 	if (event.type == 'touchstart')
-  // 	{
-  // 		this.registry.set('mobile', true);
-  // 		InputManager.activeInputMode = 'touch';
-  // 		this.input.addPointer(3);
-
-  // 		NGIO.logEvent('Mobile Start', (event) =>
-  // 		{
-  // 			console.debug(`logEvent: ${event}`);
-  // 		});
-  // 	}
-  // 	else if (event.type == 'click')
-  // 	{
-  // 		this.registry.set('mobile', false);
-
-  // 		NGIO.logEvent('Desktop Start', (event) =>
-  // 		{
-  // 			console.debug(`logEvent: ${event}`);
-  // 		});
-  // 	}
-
-  // 	if (this.loaded)
-  // 	{
-  // 		this.start();
-  // 	}
-  // }
-
-  /**s
-   * loads next scene
-   */
-  // start()
-  // {
-
-  // 	window.removeEventListener('touchstart', this.onPointer);
-  // 	window.removeEventListener('click', this.onPointer);
-
-  // 	// remove music here if applicable
-
-  // 	this.scene.stop(this);
-  // 	this.scene.launch("Titlescreen");
-
-  // 	// LevelSelect.levelSelectEntry = 'titlescreen';
-  // 	// this.scene.launch("LevelSelect");
-  // }
-
-  /* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */

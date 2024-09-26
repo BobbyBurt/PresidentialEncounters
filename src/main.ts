@@ -4,6 +4,7 @@ import cloudSaves from "./API/SaveData";
 import medalScene from "./API/medalScene";
 import { newgroundsIOWrapper } from "./API/newgroundsIOWrapper";
 import fullscreenHandler from "./FullscreenHandler";
+import ChoiceScene from "./scenes/ChoiceScene";
 import DialogueScene from "./scenes/DialogueScene";
 import GameScene from "./scenes/GameScene";
 import IllustrationScene from "./scenes/IllustrationScene";
@@ -40,6 +41,7 @@ window.addEventListener("load", function () {
   game.scene.add("game", GameScene);
   game.scene.add("dialogue", DialogueScene);
   game.scene.add("illustration", IllustrationScene);
+  game.scene.add("choice", ChoiceScene);
 });
 
 class Boot extends Phaser.Scene {
